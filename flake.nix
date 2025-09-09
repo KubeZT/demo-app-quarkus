@@ -21,7 +21,7 @@
       native = pkgs.callPackage ./native.nix {};
 
       native-image = n2c.buildImage {
-        name = "registry.dev.kubezt.com/ccravens/${native.pname}";
+        name = "registry.navy.kubezt.com/ccravens/${native.pname}";
         #name = "docker.io/ossys/demo-app-quarkus";
         tag = "native-latest";
 
@@ -38,7 +38,7 @@
       };
 
       uberjar-image = n2c.buildImage {
-        name = "registry.dev.kubezt.com/ccravens/demo-app-quarkus";
+        name = "registry.navy.kubezt.com/ccravens/demo-app-quarkus";
         #name = "docker.io/ossys/demo-app-quarkus";
         tag = "uberjar-latest";
 
