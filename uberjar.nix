@@ -27,7 +27,7 @@ in
       "-Dquarkus.package.jar.type=uber-jar"
       "-Dquarkus.console.enabled=true"
     ];
-    mvnHash = "sha256-UgTlrWLgc0PemjFyKc/NSWaiVq/8scT9yIM5ze+9IJI=";
+    mvnHash = "sha256-W2jOhy46BObUfoSQWRQ7QHE0VAW+wTPBMasHcf6jxeM=";
 
     installPhase = ''
       runHook preInstall
