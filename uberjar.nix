@@ -25,8 +25,6 @@ in
       "clean"
       "package"
       "-Dquarkus.package.jar.type=uber-jar"
-      "-Dquarkus.dev-ui.enabled=true"
-      "-Dquarkus.dev-ui.always-include=true"
       "-Dquarkus.console.enabled=true"
     ];
     mvnHash = "sha256-UgTlrWLgc0PemjFyKc/NSWaiVq/8scT9yIM5ze+9IJI=";
